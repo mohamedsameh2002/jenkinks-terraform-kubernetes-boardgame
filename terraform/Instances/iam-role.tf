@@ -40,6 +40,7 @@ resource "aws_iam_role_policy" "jenkins_ecr" {
           "ecr:InitiateLayerUpload",
           "ecr:UploadLayerPart",
           "ecr:CompleteLayerUpload",
+          "ecr:BatchGetImage",
           "ecr:PutImage"
         ]
 
