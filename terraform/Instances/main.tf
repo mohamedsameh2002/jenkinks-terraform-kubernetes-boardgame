@@ -39,7 +39,7 @@ resource "aws_instance" "jenkins" {
 
   key_name               = "workspace"
   vpc_security_group_ids = [aws_security_group.devops_sg.id]
-  iam_instance_profile = aws_iam_instance_profile.jenkins.name
+  # iam_instance_profile = aws_iam_instance_profile.jenkins.name
 
   root_block_device {
     volume_size = 30
