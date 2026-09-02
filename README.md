@@ -1,7 +1,7 @@
 # Cloud-Native CI/CD Pipeline & AWS Infrastructure
 
 <p align="center">
-  <img src="jenkinks-terraform-kubernetes-boardgame\terraform\docs\diagrams\546541.jpeg" alt="CI/CD & Infrastructure Architecture Diagram" width="100%">
+  <img src=".\terraform\docs\diagrams\546541.jpeg" alt="CI/CD & Infrastructure Architecture Diagram" width="100%">
 </p>
 
 ---
